@@ -1,0 +1,126 @@
+{
+  "zh": [
+    {
+      "id": 1,
+      "keywords": ["胸痛", "胸悶", "心絞痛", "心臟痛", "心痛"],
+      "question": "胸痛",
+      "answer": "【緊急程度】🔴 紅燈（立即就醫）\n【建議科別】急診 / 心臟科\n【症狀摘要】胸痛可能為心血管急症，須立即評估\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【評估說明】\n胸痛可能與心肌梗塞、心絞痛、主動脈剝離、肺栓塞或氣胸有關，任一情況均需立即就醫。\n\n【建議行動】\n• 立即停止活動，坐下或半臥休息\n• 症狀持續超過 5 分鐘請立即撥打 119\n• 不要自行開車就醫\n• 鬆開領口、腰帶，保持呼吸通暢\n\n【注意警訊】\n若出現以下症狀，請立即至急診或撥打 119：\n• 胸痛合併左臂、下顎或背部放射痛\n• 冒冷汗、臉色蒼白、呼吸困難\n• 意識改變或昏厥\n• 症狀持續超過 15 分鐘未緩解\n\n⚕️ 本評估僅供參考，不能替代正式醫療診斷。"
+    },
+    {
+      "id": 2,
+      "keywords": ["發燒", "高燒", "體溫", "發熱", "退燒", "燒"],
+      "question": "發燒",
+      "answer": "【緊急程度】🟡 黃燈（優先處理）\n【建議科別】內科 / 家庭醫學科\n【症狀摘要】發燒為感染或發炎的常見徵兆\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【評估說明】\n發燒（體溫 ≥ 38°C）通常是身體對抗感染的反應。高燒（≥ 39.5°C）或持續超過 3 天需要就醫評估。\n\n【建議行動】\n• 多補充水分，避免脫水\n• 可服用退燒藥（依包裝指示）\n• 休息，監測體溫變化\n• 體溫超過 38.5°C 時應於 30 分鐘內就診\n\n【注意警訊】\n若出現以下症狀，請立即至急診或撥打 119：\n• 高燒超過 40°C\n• 合併劇烈頭痛、頸部僵硬（疑似腦膜炎）\n• 皮膚出現出血性紅疹\n• 意識不清或抽搐\n\n⚕️ 本評估僅供參考，不能替代正式醫療診斷。"
+    },
+    {
+      "id": 3,
+      "keywords": ["頭痛", "偏頭痛", "頭部疼痛", "頭很痛", "頭在痛"],
+      "question": "頭痛",
+      "answer": "【緊急程度】🟡 黃燈（優先處理）\n【建議科別】神經科 / 內科\n【症狀摘要】頭痛原因多元，需排除嚴重顱內病變\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【評估說明】\n大多數頭痛屬於緊張型頭痛或偏頭痛，為良性疾病。但突發性「一生中最嚴重的頭痛」需警覺蜘蛛網膜下腔出血等急症。\n\n【建議行動】\n• 充分休息，避免強光和噪音刺激\n• 可服用止痛藥（依包裝指示）\n• 記錄頭痛發生時間、性質與誘發因素\n• 症狀持續或加重時盡快就醫\n\n【注意警訊】\n若出現以下症狀，請立即至急診或撥打 119：\n• 突發性劇烈頭痛（雷擊般）\n• 合併發燒、頸部僵硬、畏光\n• 合併肢體無力、說話困難、視力模糊\n• 頭部外傷後頭痛\n\n⚕️ 本評估僅供參考，不能替代正式醫療診斷。"
+    },
+    {
+      "id": 4,
+      "keywords": ["腹痛", "肚子痛", "胃痛", "腹部疼痛", "下腹痛", "右下腹", "肚痛"],
+      "question": "腹痛",
+      "answer": "【緊急程度】🟡 黃燈（優先處理）\n【建議科別】內科 / 外科 / 急診\n【症狀摘要】腹痛需鑑別診斷，排除外科急症\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【評估說明】\n腹痛原因眾多，包括胃炎、腸胃炎、闌尾炎、膽囊炎等。右下腹劇烈疼痛需警覺闌尾炎；突發性撕裂痛需排除主動脈病變。\n\n【建議行動】\n• 暫時禁食，觀察疼痛部位與性質\n• 記錄疼痛開始時間與程度（0~10 分）\n• 疼痛程度 ≥ 6 分，應盡快就醫\n• 避免自行服用止痛藥以免掩蓋症狀\n\n【注意警訊】\n若出現以下症狀，請立即至急診或撥打 119：\n• 腹部板狀硬（腹膜炎徵象）\n• 合併高燒、嘔吐不止\n• 右下腹持續加重的疼痛\n• 腹痛合併便血或黑便\n\n⚕️ 本評估僅供參考，不能替代正式醫療診斷。"
+    },
+    {
+      "id": 5,
+      "keywords": ["呼吸困難", "喘", "呼吸不順", "喘不過氣", "呼吸急促", "呼吸不到"],
+      "question": "呼吸困難",
+      "answer": "【緊急程度】🔴 紅燈（立即就醫）\n【建議科別】急診 / 胸腔科\n【症狀摘要】呼吸困難為潛在危及生命的緊急症狀\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【評估說明】\n呼吸困難可能由心臟衰竭、氣喘急性發作、肺炎、肺栓塞或氣胸引起，需立即醫療評估。\n\n【建議行動】\n• 立即坐直或半坐臥，利於呼吸\n• 鬆開緊身衣物\n• 若有氣喘吸入器，立即依醫囑使用\n• 立即撥打 119 或前往急診\n\n【注意警訊】\n若出現以下症狀，請立即至急診或撥打 119：\n• 嘴唇或指甲發紫（缺氧）\n• 說話困難、無法完成完整句子\n• 合併胸痛\n• 症狀快速惡化\n\n⚕️ 本評估僅供參考，不能替代正式醫療診斷。"
+    },
+    {
+      "id": 6,
+      "keywords": ["中風", "臉歪", "手麻", "說話困難", "半身不遂", "肢體無力", "嘴歪"],
+      "question": "中風症狀",
+      "answer": "【緊急程度】🔴 紅燈（立即就醫）\n【建議科別】急診 / 神經科\n【症狀摘要】疑似中風，須於黃金時間內治療\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【評估說明】\n中風的黃金治療時間為發作後 4.5 小時內。使用 FAST 口訣快速辨別：Face（臉歪）、Arm（手無力）、Speech（說話困難）、Time（立即送醫）。\n\n【建議行動】\n• 立即撥打 119，告知疑似中風\n• 記錄症狀開始時間（用於判斷治療時機）\n• 讓患者躺平，頭部略微抬高\n• 不要讓患者進食或喝水\n• 不要等待觀察，立即送醫\n\n【注意警訊】\n若出現以下任一症狀，請立即撥打 119：\n• 突發單側臉部、手臂或腿部無力\n• 突然說話困難或聽不懂別人說話\n• 突發性視力喪失或複視\n• 突發性嚴重頭痛無明顯原因\n\n⚕️ 本評估僅供參考，不能替代正式醫療診斷。"
+    },
+    {
+      "id": 7,
+      "keywords": ["扭傷", "骨折", "外傷", "跌倒", "撞傷", "挫傷", "骨頭痛", "骨裂"],
+      "question": "外傷／骨折",
+      "answer": "【緊急程度】🟡 黃燈（優先處理）\n【建議科別】骨科 / 急診\n【症狀摘要】外傷或疑似骨折，需影像學確診\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【評估說明】\n外傷嚴重程度取決於受傷機轉、部位與伴隨症狀。疑似骨折時應固定患肢，避免二次傷害。\n\n【建議行動】\n• 立即停止活動，固定受傷部位\n• 冰敷（冰袋隔布）15~20 分鐘，減輕腫脹\n• 抬高患肢（若可行）\n• 前往骨科或急診進行 X 光檢查\n\n【注意警訊】\n若出現以下症狀，請立即至急診或撥打 119：\n• 骨骼外露或肢體明顯變形\n• 受傷部位感覺或運動功能喪失\n• 大量出血無法止血\n• 頭部或脊椎受傷\n\n⚕️ 本評估僅供參考，不能替代正式醫療診斷。"
+    },
+    {
+      "id": 8,
+      "keywords": ["頭暈", "暈眩", "天旋地轉", "眩暈", "暈頭轉向"],
+      "question": "頭暈",
+      "answer": "【緊急程度】🟡 黃燈（優先處理）\n【建議科別】神經科 / 耳鼻喉科 / 內科\n【症狀摘要】頭暈原因多元，需排除中樞神經病變\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【評估說明】\n頭暈常見原因包括耳石症（良性陣發性姿勢性眩暈）、內耳前庭功能失調、貧血、低血糖、姿勢性低血壓等。合併神經症狀時需排除中風。\n\n【建議行動】\n• 立即坐下或躺下，避免跌倒\n• 保持環境安靜，閉眼休息\n• 補充適量水分，懷疑低血糖可補充糖分\n• 頭暈持續超過數分鐘應盡快就醫\n\n【注意警訊】\n若出現以下症狀，請立即至急診或撥打 119：\n• 合併肢體無力、麻木或說話困難\n• 合併劇烈頭痛或嘔吐\n• 視力突然模糊或複視\n• 意識改變或昏厥\n\n⚕️ 本評估僅供參考，不能替代正式醫療診斷。"
+    },
+    {
+      "id": 9,
+      "keywords": ["咳嗽", "喉嚨痛", "感冒", "流鼻水", "鼻塞", "打噴嚏", "流鼻涕"],
+      "question": "感冒症狀",
+      "answer": "【緊急程度】🟢 綠燈（一般門診）\n【建議科別】家庭醫學科 / 耳鼻喉科 / 內科\n【症狀摘要】典型上呼吸道感染，通常可自行康復\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【評估說明】\n普通感冒多由病毒引起，症狀包括咳嗽、喉嚨痛、流鼻水、鼻塞等，通常 7~10 天自然痊癒。合併高燒或症狀快速惡化，應考慮流感或細菌性感染。\n\n【建議行動】\n• 多休息，補充充足水分\n• 可服用症狀緩解藥物（依包裝指示）\n• 勤洗手，戴口罩，避免傳染他人\n• 症狀持續超過 1 週或加重時就醫\n\n【注意警訊】\n若出現以下症狀，請盡快就醫：\n• 高燒持續超過 3 天\n• 呼吸急促或呼吸困難\n• 胸痛\n• 症狀明顯惡化\n\n⚕️ 本評估僅供參考，不能替代正式醫療診斷。"
+    },
+    {
+      "id": 10,
+      "keywords": ["噁心", "嘔吐", "拉肚子", "腹瀉", "腸胃炎", "食物中毒", "吐"],
+      "question": "腸胃不適",
+      "answer": "【緊急程度】🟡 黃燈（優先處理）\n【建議科別】內科 / 家庭醫學科\n【症狀摘要】腸胃炎或食物中毒，注意脫水風險\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【評估說明】\n嘔吐合併腹瀉最常見原因為病毒性腸胃炎（諾羅病毒等）或食物中毒，主要風險為脫水，尤其是幼兒和老年人。\n\n【建議行動】\n• 少量多次補充口服電解質液\n• 採清流質飲食（米湯、運動飲料稀釋）\n• 避免乳製品和油膩食物\n• 注意脫水徵象（口渴、尿少、頭暈）\n\n【注意警訊】\n若出現以下症狀，請立即至急診或撥打 119：\n• 便血或嘔血\n• 嚴重脫水（無法進食任何液體超過 8 小時）\n• 劇烈腹痛\n• 意識改變\n\n⚕️ 本評估僅供參考，不能替代正式醫療診斷。"
+    }
+  ],
+  "en": [
+    {
+      "id": 1,
+      "keywords": ["chest pain", "chest tightness", "angina", "heart pain"],
+      "question": "Chest Pain",
+      "answer": "【Urgency Level】🔴 Red (Immediate)\n【Recommended Department】Emergency / Cardiology\n【Symptom Summary】Chest pain may indicate a cardiac emergency\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【Assessment】\nChest pain may indicate myocardial infarction, angina, aortic dissection, pulmonary embolism, or pneumothorax — all require immediate evaluation.\n\n【Recommended Actions】\n• Stop all activity; sit or lie down immediately\n• Call 119 if symptoms persist more than 5 minutes\n• Do not drive yourself to hospital\n• Loosen tight clothing to ease breathing\n\n【Warning Signs】\nCall 119 or go to ER immediately if you have:\n• Pain radiating to left arm, jaw, or back\n• Cold sweat, pallor, or difficulty breathing\n• Loss of consciousness or altered mental status\n• Symptoms lasting more than 15 minutes\n\n⚕️ This assessment is for reference only and cannot replace professional medical diagnosis."
+    },
+    {
+      "id": 2,
+      "keywords": ["fever", "high temperature", "high fever", "temperature"],
+      "question": "Fever",
+      "answer": "【Urgency Level】🟡 Yellow (Urgent)\n【Recommended Department】Internal Medicine / Family Medicine\n【Symptom Summary】Fever is a common sign of infection or inflammation\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【Assessment】\nFever (≥38°C / 100.4°F) is usually the body's response to infection. High fever (≥39.5°C / 103°F) or fever lasting more than 3 days requires medical evaluation.\n\n【Recommended Actions】\n• Stay hydrated with water and clear fluids\n• Take fever-reducing medication as directed\n• Rest and monitor temperature changes\n• Seek care if fever is above 38.5°C\n\n【Warning Signs】\nGo to ER immediately if you have:\n• Fever above 40°C (104°F)\n• Severe headache with stiff neck (possible meningitis)\n• Skin rash with small red or purple spots\n• Confusion or seizures\n\n⚕️ This assessment is for reference only and cannot replace professional medical diagnosis."
+    },
+    {
+      "id": 3,
+      "keywords": ["headache", "head pain", "migraine", "head hurts"],
+      "question": "Headache",
+      "answer": "【Urgency Level】🟡 Yellow (Urgent)\n【Recommended Department】Neurology / Internal Medicine\n【Symptom Summary】Headache — rule out serious intracranial pathology\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【Assessment】\nMost headaches are tension-type or migraine, which are benign. However, a sudden \"worst headache of your life\" requires urgent evaluation to rule out subarachnoid hemorrhage.\n\n【Recommended Actions】\n• Rest in a quiet, dark environment\n• Take over-the-counter pain relievers as directed\n• Track headache timing, characteristics, and triggers\n• Seek medical care if symptoms worsen or persist\n\n【Warning Signs】\nGo to ER immediately if you have:\n• Sudden, severe \"thunderclap\" headache\n• Headache with fever, stiff neck, or light sensitivity\n• Headache with limb weakness or speech difficulty\n• Headache following head injury\n\n⚕️ This assessment is for reference only and cannot replace professional medical diagnosis."
+    },
+    {
+      "id": 4,
+      "keywords": ["abdominal pain", "stomach pain", "belly pain", "stomach ache", "tummy ache"],
+      "question": "Abdominal Pain",
+      "answer": "【Urgency Level】🟡 Yellow (Urgent)\n【Recommended Department】Internal Medicine / Surgery / Emergency\n【Symptom Summary】Abdominal pain requires differential diagnosis to rule out surgical emergencies\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【Assessment】\nAbdominal pain has many causes including gastritis, gastroenteritis, appendicitis, and cholecystitis. Severe right lower quadrant pain raises concern for appendicitis.\n\n【Recommended Actions】\n• Avoid eating or drinking until evaluated\n• Note the location, nature, and severity (0–10 scale)\n• Seek care if pain is 6/10 or greater\n• Avoid pain medication before evaluation to prevent masking symptoms\n\n【Warning Signs】\nGo to ER immediately if you have:\n• Rigid, board-like abdomen (peritonitis sign)\n• High fever with persistent vomiting\n• Severe pain in the right lower abdomen\n• Blood in stool or black tarry stool\n\n⚕️ This assessment is for reference only and cannot replace professional medical diagnosis."
+    },
+    {
+      "id": 5,
+      "keywords": ["difficulty breathing", "shortness of breath", "can't breathe", "breathless", "dyspnea"],
+      "question": "Difficulty Breathing",
+      "answer": "【Urgency Level】🔴 Red (Immediate)\n【Recommended Department】Emergency / Pulmonology\n【Symptom Summary】Breathing difficulty is a potentially life-threatening emergency\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【Assessment】\nDifficulty breathing can be caused by heart failure, acute asthma attack, pneumonia, pulmonary embolism, or pneumothorax — all require immediate evaluation.\n\n【Recommended Actions】\n• Sit upright or semi-reclined to ease breathing\n• Loosen tight clothing\n• Use your asthma inhaler if prescribed\n• Call 119 or go to the ER immediately\n\n【Warning Signs】\nCall 119 or go to ER immediately if you have:\n• Blue lips or fingernails (cyanosis)\n• Unable to speak in complete sentences\n• Chest pain accompanying the breathing difficulty\n• Rapid worsening of symptoms\n\n⚕️ This assessment is for reference only and cannot replace professional medical diagnosis."
+    },
+    {
+      "id": 6,
+      "keywords": ["stroke", "face drooping", "arm weakness", "speech difficulty", "sudden numbness", "facial droop"],
+      "question": "Stroke Symptoms",
+      "answer": "【Urgency Level】🔴 Red (Immediate)\n【Recommended Department】Emergency / Neurology\n【Symptom Summary】Suspected stroke — treatment must begin within the golden window\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【Assessment】\nThe golden treatment window for stroke is within 4.5 hours of onset. Use the FAST test: Face drooping, Arm weakness, Speech difficulty, Time to call 119.\n\n【Recommended Actions】\n• Call 119 immediately and mention suspected stroke\n• Note the exact time symptoms began (critical for treatment)\n• Have the person lie down with head slightly elevated\n• Do not give food or water\n• Do not wait — act immediately\n\n【Warning Signs】\nCall 119 immediately if you notice:\n• Sudden weakness or numbness on one side of face, arm, or leg\n• Sudden trouble speaking or understanding speech\n• Sudden vision loss or double vision\n• Sudden severe headache with no known cause\n\n⚕️ This assessment is for reference only and cannot replace professional medical diagnosis."
+    },
+    {
+      "id": 7,
+      "keywords": ["sprain", "fracture", "injury", "fall", "bruise", "broken bone", "twisted"],
+      "question": "Injury / Fracture",
+      "answer": "【Urgency Level】🟡 Yellow (Urgent)\n【Recommended Department】Orthopedics / Emergency\n【Symptom Summary】Trauma or suspected fracture requiring imaging\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【Assessment】\nSeverity depends on injury mechanism, location, and accompanying symptoms. Suspected fractures should be immobilized to prevent further injury.\n\n【Recommended Actions】\n• Stop activity and immobilize the injured area\n• Apply ice (wrapped in cloth) for 15–20 minutes to reduce swelling\n• Elevate the limb if possible\n• Go to orthopedics or ER for X-ray evaluation\n\n【Warning Signs】\nGo to ER immediately if you have:\n• Bone protruding through skin or obvious deformity\n• Loss of sensation or movement in the injured area\n• Heavy bleeding that cannot be controlled\n• Head or spinal injury\n\n⚕️ This assessment is for reference only and cannot replace professional medical diagnosis."
+    },
+    {
+      "id": 8,
+      "keywords": ["dizziness", "dizzy", "vertigo", "lightheaded", "spinning"],
+      "question": "Dizziness",
+      "answer": "【Urgency Level】🟡 Yellow (Urgent)\n【Recommended Department】Neurology / ENT / Internal Medicine\n【Symptom Summary】Dizziness — rule out central nervous system causes\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【Assessment】\nCommon causes include BPPV (benign positional vertigo), inner ear dysfunction, anemia, low blood sugar, or orthostatic hypotension. Neurological symptoms require stroke evaluation.\n\n【Recommended Actions】\n• Sit or lie down immediately to prevent falls\n• Rest in a quiet environment with eyes closed\n• Stay hydrated; take sugar if low blood sugar is suspected\n• Seek care if dizziness lasts more than a few minutes\n\n【Warning Signs】\nGo to ER immediately if you have:\n• Dizziness with limb weakness or numbness\n• Severe headache or vomiting\n• Sudden visual changes or double vision\n• Loss of consciousness or confusion\n\n⚕️ This assessment is for reference only and cannot replace professional medical diagnosis."
+    },
+    {
+      "id": 9,
+      "keywords": ["cough", "cold", "runny nose", "sore throat", "sneezing", "congestion", "stuffy nose"],
+      "question": "Cold Symptoms",
+      "answer": "【Urgency Level】🟢 Green (Non-urgent)\n【Recommended Department】Family Medicine / ENT / Internal Medicine\n【Symptom Summary】Typical upper respiratory infection — usually self-resolving\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【Assessment】\nThe common cold is usually viral and includes cough, sore throat, runny nose, and congestion. Most cases resolve in 7–10 days. High fever or rapid deterioration may suggest influenza or bacterial infection.\n\n【Recommended Actions】\n• Get plenty of rest and stay hydrated\n• Use over-the-counter symptom relievers as directed\n• Wash hands frequently; wear a mask to avoid spreading infection\n• See a doctor if symptoms persist more than 1 week or worsen\n\n【Warning Signs】\nSeek care promptly if you develop:\n• High fever lasting more than 3 days\n• Rapid breathing or difficulty breathing\n• Chest pain\n• Significant worsening of symptoms\n\n⚕️ This assessment is for reference only and cannot replace professional medical diagnosis."
+    },
+    {
+      "id": 10,
+      "keywords": ["nausea", "vomiting", "diarrhea", "gastroenteritis", "food poisoning", "upset stomach"],
+      "question": "GI Discomfort",
+      "answer": "【Urgency Level】🟡 Yellow (Urgent)\n【Recommended Department】Internal Medicine / Family Medicine\n【Symptom Summary】Gastroenteritis or food poisoning — watch for dehydration\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n【Assessment】\nVomiting with diarrhea is most commonly caused by viral gastroenteritis (norovirus, etc.) or food poisoning. The main risk is dehydration, especially in young children and the elderly.\n\n【Recommended Actions】\n• Take small, frequent sips of oral rehydration solution\n• Follow a clear liquid diet (broth, diluted sports drinks)\n• Avoid dairy and greasy foods\n• Watch for signs of dehydration (thirst, reduced urination, dizziness)\n\n【Warning Signs】\nGo to ER immediately if you have:\n• Blood in vomit or stool\n• Severe dehydration (unable to keep fluids down for 8+ hours)\n• Severe abdominal pain\n• Confusion or altered consciousness\n\n⚕️ This assessment is for reference only and cannot replace professional medical diagnosis."
+    }
+  ]
+}

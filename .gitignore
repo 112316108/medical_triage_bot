@@ -1,0 +1,23 @@
+# API 金鑰（絕對不可上傳！）
+.env
+
+# Python 暫存檔
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 虛擬環境
+venv/
+.venv/
+env/
+
+# 匯出的 PDF（不需要納入版控）
+*.pdf
+
+# 系統與編輯器
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
