@@ -1,8 +1,8 @@
 # ============================================================
 # triage_bot.py  ─  醫療分診機器人主程式
-# 負責人：A 同學
+# 負責人：112316108
 # 說明：tkinter 聊天介面 + Groq API 呼叫 + 對話歷史管理
-# 使用模型：llama-3.3-70b-versatile（via Groq）
+# 使用模型：qwen/qwen3.8-27b（via Groq；依 evaluation/ 評估結果選定）
 # ============================================================
 
 import os
@@ -23,6 +23,9 @@ from utils import export_to_pdf, save_conversation, load_conversation
 
 # 載入 .env 中的 API Key
 load_dotenv()
+
+# Groq 上使用的模型（原 llama-3.3-70b-versatile 已下架）
+MODEL = "qwen/qwen3.8-27b"
 
 
 # ══════════════════════════════════════════════════════════════
@@ -293,7 +296,7 @@ class TriageBotApp:
         self.title_lbl.pack(anchor="w")
 
         tk.Label(name_col,
-                 text="Medical Triage Assistant  ·  Groq Llama-3.3-70b",
+                 text="Medical Triage Assistant  ·  Groq Qwen3.8-27B",
                  font=(FONT, 9), bg=C["header_bg"], fg=C["header_sub"]).pack(anchor="w")
 
         # 右側狀態燈
@@ -578,7 +581,7 @@ class TriageBotApp:
         """背景執行緒：以串流模式呼叫 Groq API，逐塊推送到主執行緒"""
         try:
             stream = self.client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model=MODEL,
                 messages=self.conversation_history,
                 max_tokens=1024,
                 temperature=0.4,
@@ -881,7 +884,7 @@ class TriageBotApp:
         )
         try:
             resp = self.client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model=MODEL,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=4096,
                 temperature=0.1,
@@ -1052,7 +1055,7 @@ class TriageBotApp:
         def do_summary():
             try:
                 resp = self.client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
+                    model=MODEL,
                     messages=messages,
                     max_tokens=400,
                     temperature=0.3,
