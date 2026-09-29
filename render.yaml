@@ -1,0 +1,13 @@
+# Render 部署設定（Blueprint）：在 Render 選 New → Blueprint 並連結此 GitHub repo
+services:
+  - type: web
+    name: medical-triage-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-web.txt
+    startCommand: python web_app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.5
+      - key: GROQ_API_KEY
+        sync: false   # 建立時由 Render 介面輸入，不會存進 GitHub

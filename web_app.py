@@ -2,7 +2,7 @@
 # web_app.py  ─  醫療分診機器人網頁版（Gradio）
 # 負責人：112316108
 # 說明：與桌面版（triage_bot.py）共用 prompts.py 與 knowledge_base.json，
-#       可在本機執行，或部署到 Hugging Face Spaces 讓評審直接操作
+#       可在本機執行，或部署到 Render 讓評審直接操作
 # 執行：python web_app.py  → 瀏覽器開啟 http://127.0.0.1:7860
 # ============================================================
 
@@ -283,5 +283,9 @@ with gr.Blocks(title="醫療分診機器人 Medical Triage Bot") as demo:
 
 
 if __name__ == "__main__":
+    # 雲端平台（如 Render）會用 PORT 環境變數指定埠號，需對外監聽 0.0.0.0
+    port = os.getenv("PORT")
     demo.queue(default_concurrency_limit=4).launch(
+        server_name="0.0.0.0" if port else None,
+        server_port=int(port) if port else None,
         css=CSS, theme=gr.themes.Soft(primary_hue="teal"))

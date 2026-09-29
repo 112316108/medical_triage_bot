@@ -28,7 +28,8 @@ medical_triage_bot/
 ├── prompts.py         ← AI Prompt 設定
 ├── utils.py           ← PDF 匯出工具
 ├── web_app.py         ← 網頁版（Gradio）
-├── deploy/            ← Hugging Face Spaces 部署設定與腳本
+├── requirements-web.txt ← 網頁版部署用套件（不含語音、PDF）
+├── render.yaml        ← Render 雲端部署設定
 ├── knowledge_base.json ← 常見症狀本地知識庫（中英文）
 ├── evaluation/
 │   ├── test_cases.json ← 56 題 TTAS 標註測試情境
@@ -152,15 +153,16 @@ python triage_bot.py      # 桌面版（tkinter）
 python web_app.py         # 網頁版（Gradio），瀏覽器開啟 http://127.0.0.1:7860
 ```
 
-### 5. 部署網頁版（Hugging Face Spaces，選用）
+### 5. 部署網頁版（Render，選用）
 
-網頁版可以部署到 Hugging Face Spaces，產生一個公開網址，別人不用安裝就能直接操作。
+網頁版可以免費部署到 [Render](https://render.com)，產生一個公開網址，別人不用安裝就能直接操作。
 
-1. 註冊 https://huggingface.co ，到 Settings → Access Tokens 建立一個 **Write** 權限的 token
-2. 在終端機執行 `hf auth login`，貼上 token
-3. 執行 `python deploy/deploy_space.py <你的HF帳號>/medical-triage-bot`
+1. 用 GitHub 帳號登入 https://render.com
+2. 點 **New → Blueprint**，選擇這個 repo（Render 會讀取 `render.yaml`）
+3. 依提示在 `GROQ_API_KEY` 欄位貼上你的 Groq 金鑰，按 **Apply**
+4. 建置完成後會得到 `https://medical-triage-bot-xxxx.onrender.com`
 
-腳本會把 `.env` 裡的 `GROQ_API_KEY` 設成 Space 的 **Secret**，金鑰不會出現在公開檔案裡。網頁版有使用限制（單則 500 字、每次對話 15 輪、全站每分鐘 20 次 AI 呼叫），避免 API 額度被用光。
+金鑰只存在 Render 的環境變數裡，不會進到 GitHub。免費方案閒置 15 分鐘後會休眠，再次開啟需要等大約 1 分鐘。網頁版有使用限制（單則 500 字、每次對話 15 輪、全站每分鐘 20 次 AI 呼叫），避免 API 額度被用光。
 
 | 功能 | 桌面版 | 網頁版 |
 |---|---|---|
