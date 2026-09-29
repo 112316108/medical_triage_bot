@@ -16,6 +16,7 @@ AI 分診助理，根據使用者描述的症狀，評估緊急程度（🔴🟡
 | 📄 PDF 匯出 | 一鍵將對話紀錄匯出為 PDF，支援繁體中文 |
 | ⚕️ 免責聲明 | 啟動時強制顯示，使用者同意後方可使用 |
 | 🎨 醫療藍綠色系介面 | tkinter 原生 UI，專業醫療視覺風格 |
+| 🌐 網頁版 | Gradio 網頁介面，可部署成公開網址直接操作 |
 
 ---
 
@@ -26,6 +27,8 @@ medical_triage_bot/
 ├── triage_bot.py      ← 主程式
 ├── prompts.py         ← AI Prompt 設定
 ├── utils.py           ← PDF 匯出工具
+├── web_app.py         ← 網頁版（Gradio）
+├── deploy/            ← Hugging Face Spaces 部署設定與腳本
 ├── knowledge_base.json ← 常見症狀本地知識庫（中英文）
 ├── evaluation/
 │   ├── test_cases.json ← 56 題 TTAS 標註測試情境
@@ -145,8 +148,26 @@ GROQ_API_KEY=gsk_你的真實金鑰
 ### 4. 執行程式
 
 ```bash
-python triage_bot.py
+python triage_bot.py      # 桌面版（tkinter）
+python web_app.py         # 網頁版（Gradio），瀏覽器開啟 http://127.0.0.1:7860
 ```
+
+### 5. 部署網頁版（Hugging Face Spaces，選用）
+
+網頁版可以部署到 Hugging Face Spaces，產生一個公開網址，別人不用安裝就能直接操作。
+
+1. 註冊 https://huggingface.co ，到 Settings → Access Tokens 建立一個 **Write** 權限的 token
+2. 在終端機執行 `hf auth login`，貼上 token
+3. 執行 `python deploy/deploy_space.py <你的HF帳號>/medical-triage-bot`
+
+腳本會把 `.env` 裡的 `GROQ_API_KEY` 設成 Space 的 **Secret**，金鑰不會出現在公開檔案裡。網頁版有使用限制（單則 500 字、每次對話 15 輪、全站每分鐘 20 次 AI 呼叫），避免 API 額度被用光。
+
+| 功能 | 桌面版 | 網頁版 |
+|---|---|---|
+| 分診對話、燈號顯示、知識庫 | ✅ | ✅ |
+| 中英切換、專業/簡易模式、病患資料 | ✅ | ✅ |
+| 匯出紀錄 | PDF | 文字檔（.txt） |
+| 語音輸入、儲存/載入對話、對話摘要 | ✅ | — |
 
 ---
 

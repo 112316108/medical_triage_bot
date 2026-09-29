@@ -6,6 +6,7 @@
 # ============================================================
 
 import os
+import re
 import glob
 import json
 import threading
@@ -125,6 +126,17 @@ UI = {
         "status_rec":     "● Recording…",
     },
 }
+
+
+# 知識庫比對用的否定詞：「沒有發燒」不應命中「發燒」
+NEGATION = re.compile(
+    r"(沒有|沒|無|不|未|否認)[^，,。；;、\s但可而卻還]{0,4}"
+    r"|\b(no|not|without|denies?)\s+[a-z]+(\s+[a-z]+)?", re.I)
+
+
+def _strip_negated(text: str) -> str:
+    """刪掉被否定的片段（例：「沒有發燒」「no fever」），避免知識庫誤命中"""
+    return NEGATION.sub(" ", text)
 
 
 # ══════════════════════════════════════════════════════════════
@@ -1116,7 +1128,7 @@ class TriageBotApp:
         回傳命中分數最高的條目，或 None（完全無命中）。
         """
         entries = self._load_kb().get(self.lang, [])
-        text_lower = text.lower()
+        text_lower = _strip_negated(text.lower())
         best, best_score = None, 0
         for entry in entries:
             score = sum(1 for kw in entry.get("keywords", []) if kw.lower() in text_lower)
